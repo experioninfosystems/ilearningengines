@@ -1,0 +1,30 @@
+{
+  "name": "apptemplate",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://jaimohann.github.io/apptemplate",
+  "proxy":"https://demo.ilearningengines.com",
+  "dependencies": {
+    "admin-lte": "^2.4.8",
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.2.0",
+    "ionicons": "^2.0.1",
+    "jquery": "^3.3.1",
+    "react": "^16.5.0",
+    "react-data-grid": "^4.0.8",
+    "react-dom": "^16.5.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
